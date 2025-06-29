@@ -15,7 +15,7 @@ ChainWing führt mit zertifizierten Piloten und geprüfter Technik hochwertige D
 Dazu gehören unter anderem:
 
 - 🔍 Thermografie von Photovoltaikanlagen
-- 🏗️ Visuelle Inspektionen von Dächern & Fassaden
+- 🏗️ Umsetzung von Photovoltaikanlagen
 - 📸 Dokumentation bei Bauprojekten
 - 🛰️ Erste Tests für automatisierte Erkennung & Bewertung (KI)
 
@@ -61,3 +61,4 @@ cd chainwing-dapp
 cd frontend
 pnpm install
 pnpm dev
+
