@@ -1,52 +1,63 @@
-# 🚁 ChainWing DApp
+# 🚁 ChainWing – Drohnen. Energie. Zukunft.
 
-![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
-![Solana](https://img.shields.io/badge/built%20on-Solana-blueviolet)
-![Status: MVP](https://img.shields.io/badge/status-MVP--Phase-yellow)
+![Lizenz: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Technologie: Solana](https://img.shields.io/badge/Technologie-Solana-blueviolet)
+![Status: Aktiv](https://img.shields.io/badge/status-pilotphase-success)
 
-> **ChainWing** is an open-source DApp for decentralized drone services — built with Solana, NFT verification, and tokenized payments via CWT.
-
----
-
-## 🌍 Vision
-
-We're building a decentralized platform for drone operations.  
-Our mission is to enable trustless coordination between project owners and drone pilots — powered by blockchain, automation, and real-world utility.
+> ChainWing ist ein technologiegestützter Drohnendienstleister mit Fokus auf Thermografie, Inspektion und zukunftsorientierter Energieplanung.  
+> Unser Ziel: Bereits heute verlässlich arbeiten – und gleichzeitig den Weg ebnen für die dezentrale Koordination von Drohneneinsätzen.
 
 ---
 
-## 🔑 Core Features
+## 🌍 Was wir heute tun
 
-- 🪙 **Solana Wallet Login** – secure and fast user onboarding
-- 🎖️ **NFT Pilot Certification** – verify licenses, drone type, region & insurance
-- 📋 **Mission Board** – clients publish drone jobs, pilots apply via wallet
-- 💸 **CWT Payments & Staking** – fast, transparent, and programmable
-- 🛠️ **Onboarding Forms** – tailored data capture for clients and pilots
-- 🛰️ **Future: DAO governance, autonomous drone hubs, AI agent workflows**
+ChainWing führt mit zertifizierten Piloten und geprüfter Technik hochwertige Drohneneinsätze durch.  
+Dazu gehören unter anderem:
 
----
+- 🔍 Thermografie von Photovoltaikanlagen
+- 🏗️ Visuelle Inspektionen von Dächern & Fassaden
+- 📸 Dokumentation bei Bauprojekten
+- 🛰️ Erste Tests für automatisierte Erkennung & Bewertung (KI)
 
-## 🧱 Tech Stack
-
-| Layer      | Tools                                        |
-|------------|----------------------------------------------|
-| Frontend   | Next.js, Tailwind CSS, Wallet Adapter        |
-| Backend    | Supabase (PostgreSQL, Auth, Edge Functions)  |
-| Blockchain | Solana, Anchor, Metaplex Token Metadata      |
-| DevOps     | GitHub Actions, Cloudflare Pages             |
+Alle Einsätze werden derzeit **zentral verwaltet** und **manuell geplant**.  
+Piloten werden persönlich ausgewählt und geprüft. Wir tragen die volle Verantwortung für Qualität und Rechtssicherheit.
 
 ---
 
-## 📦 Project Structure
+## 🔮 Was wir vorbereiten
+
+Parallel zum operativen Geschäft bauen wir eine technologische Plattform auf, die:
+
+- 💼 Pilotenprofile mit verifizierten Daten führt (A1/A3, STS, Versicherung)
+- 🧾 Zertifikate optional in Form von **NFTs** speichert
+- 💰 Tokenisierte Belohnungen über den **ChainWing Token (CWT)** ermöglicht
+- 🧠 Smarte Auftragslogik über Wallet-Login und Smart Contracts abbildet
+- 🛰️ Perspektivisch DePIN-fähige Drohnentürme mit Lade- & Startlogik integrieren kann
+
+**Die Infrastruktur steht bereit – der Markt ist es noch nicht.**
+
+---
+
+## 🧱 Technologie
+
+| Ebene         | Technologie                             |
+|---------------|------------------------------------------|
+| Frontend      | Next.js, Tailwind CSS                    |
+| Wallet-Login  | Solana Wallet Adapter                    |
+| Backend       | Supabase (PostgreSQL, Auth, Edge)        |
+| Blockchain    | Solana, Anchor, Metaplex NFTs            |
+| Automatisierung | GitHub Actions, Cloudflare Pages      |
+
+---
+
+## ⚙️ Lokales Setup
 
 ```bash
-chainwing-dapp/
-├── frontend/           # Next.js app with wallet login & mission UI
-├── backend/            # Supabase logic, schema definitions
-├── onchain/            # Solana smart contracts (Anchor)
-├── idl/                # Auto-generated Anchor IDLs for frontend integration
-├── nft-metadata/       # Pilot NFT metadata (JSON)
-├── tokenomics/         # CWT token logic & reward strategy
-├── scripts/            # Dev & deployment utilities
-├── docs/               # Architecture, vision & planning
-└── .github/workflows/  # GitHub Actions for CI/CD
+# 1. Repository klonen
+git clone https://github.com/deinname/chainwing-dapp.git
+cd chainwing-dapp
+
+# 2. Frontend starten
+cd frontend
+pnpm install
+pnpm dev
