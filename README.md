@@ -1,56 +1,60 @@
-# 🚁 ChainWing – Drohnen. Energie. Zukunft.
+# 🚁 ChainWing – Thermografie. Inspektion. Energie der Zukunft.
 
 ![Lizenz: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Technologie: Solana](https://img.shields.io/badge/Technologie-Solana-blueviolet)
-![Status: Aktiv](https://img.shields.io/badge/status-pilotphase-success)
+![Status: aktiv – operativ & in Entwicklung](https://img.shields.io/badge/status-aktiv-informational)
 
-> ChainWing ist ein technologiegestützter Drohnendienstleister mit Fokus auf Thermografie, Inspektion und zukunftsorientierter Energieplanung.  
-> Unser Ziel: Bereits heute verlässlich arbeiten – und gleichzeitig den Weg ebnen für die dezentrale Koordination von Drohneneinsätzen.
+> **ChainWing** ist ein moderner Drohnendienstleister mit Fokus auf Thermografie, Inspektion und intelligenter Energieplanung.  
+> Wir verbinden heutige Services mit der Zukunft: einer dezentralen Koordination von Drohneneinsätzen auf Blockchain-Basis.
 
 ---
 
 ## 🌍 Was wir heute tun
 
-ChainWing führt mit zertifizierten Piloten und geprüfter Technik hochwertige Drohneneinsätze durch.  
-Dazu gehören unter anderem:
+Aktuell betreibt ChainWing ein **zentrales Drohnennetzwerk mit geprüften Piloten** und bietet verlässliche Einsätze für:
 
-- 🔍 Thermografie von Photovoltaikanlagen
-- 🏗️ Umsetzung von Photovoltaikanlagen
-- 📸 Dokumentation bei Bauprojekten
-- 🛰️ Erste Tests für automatisierte Erkennung & Bewertung (KI)
+- 🔍 **Thermografie** und Fehleranalyse von Photovoltaikanlagen
+- 🏗️ **Planung & Umsetzung** von PV-Anlagen (über PV Wonnegau)
+- 📸 **Dokumentation** bei Bauprojekten & Inspektionen
+- ✅ **Rechtssichere Abläufe** – DSGVO-konform & versichert
 
-Alle Einsätze werden derzeit **zentral verwaltet** und **manuell geplant**.  
-Piloten werden persönlich ausgewählt und geprüft. Wir tragen die volle Verantwortung für Qualität und Rechtssicherheit.
+Alle Einsätze werden manuell geplant und betreut. Qualität steht über Automatisierung.
 
 ---
 
-## 🔮 Was wir vorbereiten
+## 🔧 Was wir entwickeln
 
-Parallel zum operativen Geschäft bauen wir eine technologische Plattform auf, die:
+Parallel zum laufenden Geschäft bauen wir eine technologische Plattform auf, die perspektivisch:
 
-- 💼 Pilotenprofile mit verifizierten Daten führt (A1/A3, STS, Versicherung)
-- 🧾 Zertifikate optional in Form von **NFTs** speichert
-- 💰 Tokenisierte Belohnungen über den **ChainWing Token (CWT)** ermöglicht
-- 🧠 Smarte Auftragslogik über Wallet-Login und Smart Contracts abbildet
-- 🛰️ Perspektivisch DePIN-fähige Drohnentürme mit Lade- & Startlogik integrieren kann
+- 📄 Pilotendaten & Zertifikate (z. B. A1/A3, STS) verwaltet
+- 🧾 Verifizierungen optional über **NFTs** abbildet
+- 💰 Einsätze mit **CWT (ChainWing Token)** belohnt
+- 🧠 Smarte Jobs via Wallet-Login & Smart Contracts abwickelt
+- 🚀 DePIN-fähige Drohnentürme für autonome Inspektionen integriert
 
-**Die Infrastruktur steht bereit – der Markt ist es noch nicht.**
-
----
-
-## 🧱 Technologie
-
-| Ebene         | Technologie                             |
-|---------------|------------------------------------------|
-| Frontend      | Next.js, Tailwind CSS                    |
-| Wallet-Login  | Solana Wallet Adapter                    |
-| Backend       | Supabase (PostgreSQL, Auth, Edge)        |
-| Blockchain    | Solana, Anchor, Metaplex NFTs            |
-| Automatisierung | GitHub Actions, Cloudflare Pages      |
+**Web3 ist bei uns optional.** Kunden sollen die Vorteile spüren – ohne Wallet oder Technikverständnis.
 
 ---
 
-## ⚙️ Lokales Setup
+## 🧱 Tech Stack
+
+| Ebene           | Technologie                             |
+|------------------|------------------------------------------|
+| Frontend         | Next.js, Tailwind CSS                    |
+| Auth             | Solana Wallet Adapter, Supabase Auth     |
+| Backend          | Supabase (PostgreSQL, Edge Functions)    |
+| Blockchain       | Solana, Anchor, Metaplex NFTs            |
+| DevOps & Hosting | GitHub Actions, Cloudflare Pages         |
+
+---
+## 📫 Kontakt & Mitmachen
+ChainWing ist offen für Piloten, Partnerfirmen und Entwickler:innen.
+
+📍 Standort: Worms, Rheinland-Pfalz
+🌐 Website: https://chainwing.de
+📧 E-Mail: info@chainwing.de
+
+## 📦 Projektstruktur & lokales Setup
 
 ```bash
 # 1. Repository klonen
@@ -61,4 +65,3 @@ cd chainwing-dapp
 cd frontend
 pnpm install
 pnpm dev
-
